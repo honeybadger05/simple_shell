@@ -1,3 +1,4 @@
+#include "shell.h"
 
 /**
  * _split - Split the input into the command and its arguments.
@@ -21,5 +22,7 @@ int _split(const char *command, char *args[])
 	}
 	args[count] = NULL;
 
+	return (count);
+}
 	return (count);
 }
