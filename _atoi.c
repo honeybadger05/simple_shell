@@ -1,4 +1,3 @@
-#include "main.h"
 
 /**
  * _isspace - checks if a character is a whitespace character
